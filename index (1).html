@@ -1,0 +1,135 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+    background: url(5dc3f1d513e7b.jpg);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+  sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    width: 75%;
+  color: red;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#">
+                <img src="_1526408913_622_Ralph-Lauren-Stacked-Logo_2917332a71fa-mobile (1).jpg" alt="Ralph Lauren" height="100">
+            </a>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <aside class="sidebar">
+                <h3>(Sidebar) Clothings</h3>
+                    <ul>
+                <li><a href="#">Polo</a></li>
+                <li><a href="#">T-shirt</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Pants</a></li>
+            </ul>
+            </aside>
+            <section class="content">
+                <h2>Ralph Lauren Quote</h2>
+                <p>"It's about living the best life you can and enjoying the fullness of the life around you--from what you wear, to the way you live, to the way you love."</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; POLO RALPH LAUREN</p>
+        </div>
+    </footer>
+</body>
+</html>
